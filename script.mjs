@@ -1,14 +1,17 @@
-function dosum(event){
-    event.preventdefault();
-    console.log("function is running");
-    let firstnumber = document.querySelector("#firstnumber").value;
-    let secondnumber = document.querySelector("#second number").value;
+function doSum(event){
+    event.preventDefault();
 
-    console.log(firstnumber)
-    console.log(secondnumber)
-    let result = number(firstnumber) + number(secondnumber);
+    console.log("function is running");
+
+    let firstNumber = document.querySelector("#firstNumber").value;
+    let secondNumber = document.querySelector("#secondNumber").value;
+
+    console.log(firstNumber)
+    console.log(secondNumber)
+
+    let result = Number(firstNumber) + Number(secondNumber);
     console.log(result);
-let resultmessage=
-`the sum of ${firstnumber} and ${secondnumber} = ${result}`;
-document.querySelector("#resultwindow").innerHTMI = resultmessage;
+
+    let resultMessage=`the sum of ${firstNumber} + ${secondNumber} = ${result}`;
+    document.querySelector("#resultWindow").innerHTML = resultMessage;
 }

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(14, 178, 244);
+}
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+}
+#firstNumber{
+    padding: 10px 47px 10px 0px;
+   border: 1px solid red;
+   border-radius: 10px;
+   margin-bottom: 4px;
+}
+#secondNumber{
+    padding: 10px 25px 10px 25px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+button{
+    background-color: red;
+    padding: 7px 45px 7px 45px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
